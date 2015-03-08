@@ -7,7 +7,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>iWebChat</title>
+<title>Chat And Share</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="/skins/css/bootstrap.min.css" rel="stylesheet">

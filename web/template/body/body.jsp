@@ -9,7 +9,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="intro-message">
-            <h1>iWebChat</h1>
+            <h1>Chat And Share</h1>
             <h3>Start chatting and share your problems</h3>
             <hr class="intro-divider">
             <ul class="list-inline intro-social-buttons">

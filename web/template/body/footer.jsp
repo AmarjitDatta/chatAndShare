@@ -23,7 +23,7 @@
             <a href="http://localhost:8080/contact">Contact</a>
           </li>
         </ul>
-        <p class="copyright text-muted small">Copyright &copy; iWebChat 2014. All Rights Reserved</p>
+        <p class="copyright text-muted small">Copyright &copy; Chat And Share 2014. All Rights Reserved</p>
       </div>
     </div>
   </div>
