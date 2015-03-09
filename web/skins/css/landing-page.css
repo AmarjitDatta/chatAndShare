@@ -172,3 +172,11 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+form.userInfo label {
+  font-size: 24px;
+}
+
+form.userInfo input {
+  color: #000;
+}

@@ -12,16 +12,14 @@
             <h1>Chat And Share</h1>
             <h3>Start chatting and share your problems</h3>
             <hr class="intro-divider">
-            <ul class="list-inline intro-social-buttons">
-              <li>
-                <a href="chat" class="btn btn-default btn-lg"><i
-                    class="fa chat"></i> <span class="network-name">Start Chat</span></a>
-              </li>
-            </ul>
-            <form action="saveUserInformation">
+            <form class="userInfo" action="startChatApplication" method="post">
+              <input type="hidden" name="ipAddress" value=""/>
+              <input type="hidden" name="longitude" value=""/>
+              <input type="hidden" name="latitude" value=""/>
+
               <label for="userName">Please enter your name</label><br/>
-              <input type="text" name="userName"/>
-              <input type="submit" value="Start Chatting"/>
+              <input class="userName" type="text" name="userName"/>
+              <input class="btn btn-info" type="submit" value="Start Chatting"/>
             </form>
           </div>
         </div>
