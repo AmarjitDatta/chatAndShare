@@ -5,4 +5,11 @@
     "http://struts.apache.org/dtds/struts-2.1.dtd">
 
 <struts>
+  <package name="chatActions" extends="struts-default">
+    <action name="saveUserInformation"
+            class="com.chat.actions.SaveUserData"
+            method="execute">
+      <result name="success">/chat/index.jsp</result>
+    </action>
+  </package>
 </struts>

@@ -18,6 +18,11 @@
                     class="fa chat"></i> <span class="network-name">Start Chat</span></a>
               </li>
             </ul>
+            <form action="saveUserInformation">
+              <label for="userName">Please enter your name</label><br/>
+              <input type="text" name="userName"/>
+              <input type="submit" value="Start Chatting"/>
+            </form>
           </div>
         </div>
       </div>
