@@ -66,4 +66,43 @@ public class DatabaseUtil {
       }
     }
   }
+
+  public String getUserInformation(String userName) {
+    Connection connection = null;
+    Statement statement = null;
+    ResultSet resultSet = null;
+    String resultString = "";
+
+    try {
+      connection = dataSource.getConnection();
+      statement = connection.createStatement();
+      String sqlStatement = "SELECT * FROM USERS_INFO WHERE userName = '" + userName +"'";
+      resultSet = statement.executeQuery(sqlStatement);
+      while (resultSet.next()) {
+        resultString = resultSet.getString("userName") + "," + resultSet.getString("ip") + "," + resultSet.getString("latitude") + "," + resultSet.getString("longitude");
+      }
+      return resultString;
+    } catch (Exception ex) {
+      ex.printStackTrace();
+    } finally {
+      try {
+        if (resultSet != null) {
+          resultSet.close();
+        }
+      } catch (SQLException e) {
+        e.printStackTrace();
+      }
+      try {
+        if (statement != null) statement.close();
+      } catch (SQLException e) {
+        e.printStackTrace();
+      }
+      try {
+        if (connection != null) connection.close();
+      } catch (SQLException e) {
+        e.printStackTrace();
+      }
+    }
+    return resultString;
+  }
 }
