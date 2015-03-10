@@ -62,6 +62,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 72" level="application_server_libraries" />
     <orderEntry type="library" name="Java EE 6" level="project" />
     <orderEntry type="library" name="struts2-2.2.1.1" level="project" />
+    <orderEntry type="library" name="JSTL" level="project" />
   </component>
 </module>
 

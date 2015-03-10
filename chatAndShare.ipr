@@ -246,6 +246,13 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="JSTL">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="struts2-2.2.1.1">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/struts2-core.jar!/" />
@@ -259,22 +266,6 @@
       <JAVADOC />
       <SOURCES />
     </library>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
 
