@@ -1,5 +1,6 @@
 package com.chat.actions;
 
+import com.chat.database.util.DatabaseUtil;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class SaveUserData extends ActionSupport {
@@ -41,10 +42,7 @@ public class SaveUserData extends ActionSupport {
   }
 
   public String execute() throws Exception {
-    String ip = getIpAddress();
-    String lng = getLongitude();
-    String lat = getLatitude();
-    String name = getUserName();
+    DatabaseUtil.getInstance().insertUserInformation(getUserName(), getIpAddress(), getLatitude(), getLongitude());
 
     return "success";
   }
