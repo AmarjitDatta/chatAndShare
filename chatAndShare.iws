@@ -15,9 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d20264ef-cbcd-447e-ad1a-38da2d3fcc5b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatAndShare.iml" afterPath="$PROJECT_DIR$/chatAndShare.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatAndShare.ipr" afterPath="$PROJECT_DIR$/chatAndShare.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatAndShare.iws" afterPath="$PROJECT_DIR$/chatAndShare.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chat/actions/GetUserData.java" afterPath="$PROJECT_DIR$/src/com/chat/actions/GetUserData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/skins/css/landing-page.css" afterPath="$PROJECT_DIR$/web/skins/css/landing-page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/template/body/admin.jsp" afterPath="$PROJECT_DIR$/web/template/body/admin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/template/body/ichat.jsp" afterPath="$PROJECT_DIR$/web/template/body/ichat.jsp" />
     </list>
     <ignored path="chatAndShare.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,24 +77,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="head.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/template/head/head.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="-15.692307">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scripts.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/template/body/scripts.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="29" selection-start="196" selection-end="196" vertical-scroll-proportion="-2.6153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,7 +92,7 @@
       <file leaf-file-name="GetUserData.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chat/actions/GetUserData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+            <state line="6" column="74" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,10 +120,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/template/body/admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="53" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.56150794">
+            <state line="25" column="70" selection-start="888" selection-end="948" vertical-scroll-proportion="-8.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ichat.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/template/body/ichat.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="38" selection-start="390" selection-end="390" vertical-scroll-proportion="0.21395881">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing-page.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/skins/css/landing-page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="184" column="2" selection-start="3076" selection-end="3076" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,7 +179,7 @@
       <file leaf-file-name="body.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/template/body/body.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="63" selection-start="765" selection-end="773" vertical-scroll-proportion="-11.769231">
+            <state line="31" column="31" selection-start="1109" selection-end="1132" vertical-scroll-proportion="-15.961538">
               <folding />
             </state>
           </provider>
@@ -199,11 +200,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/template/body/footer.jsp" />
         <option value="$PROJECT_DIR$/web/template/body/header.jsp" />
         <option value="$PROJECT_DIR$/src/com/chat/action/SaveUserData.java" />
-        <option value="$PROJECT_DIR$/web/skins/css/landing-page.css" />
         <option value="$PROJECT_DIR$/web/skins/js/geoLocationHTML5.js" />
         <option value="$PROJECT_DIR$/web/template/body/scripts.jsp" />
         <option value="$PROJECT_DIR$/web/template/head/head.jsp" />
@@ -213,8 +212,10 @@
         <option value="$PROJECT_DIR$/web/admin/index.jsp" />
         <option value="$PROJECT_DIR$/src/struts.xml" />
         <option value="$PROJECT_DIR$/src/com/chat/database/util/DatabaseUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/chat/actions/GetUserData.java" />
         <option value="$PROJECT_DIR$/web/template/body/admin.jsp" />
+        <option value="$PROJECT_DIR$/web/skins/css/landing-page.css" />
+        <option value="$PROJECT_DIR$/web/template/body/ichat.jsp" />
+        <option value="$PROJECT_DIR$/src/com/chat/actions/GetUserData.java" />
       </list>
     </option>
   </component>
@@ -353,6 +354,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="body" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatAndShare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatAndShare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -682,7 +701,7 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.399137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -694,7 +713,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16417113" sideWeight="0.600863" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16417113" sideWeight="0.67098165" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7055016" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -750,11 +769,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/skins/css/landing-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="14" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/template/body/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="63" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0">
@@ -806,23 +820,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/template/body/body.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="63" selection-start="765" selection-end="773" vertical-scroll-proportion="-11.769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/xwork-core.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="29" selection-start="4186" selection-end="4186" vertical-scroll-proportion="0.864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="324" selection-end="324" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
@@ -855,18 +855,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/skins/css/landing-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="2" selection-start="3076" selection-end="3076" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/template/body/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="70" selection-start="888" selection-end="948" vertical-scroll-proportion="-8.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chat/actions/GetUserData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+        <state line="6" column="74" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/template/body/admin.jsp">
+    <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="53" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.56150794">
+        <state line="10" column="39" selection-start="324" selection-end="324" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/template/body/body.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="31" selection-start="1109" selection-end="1132" vertical-scroll-proportion="-15.961538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/template/body/ichat.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="38" selection-start="390" selection-end="390" vertical-scroll-proportion="0.21395881">
           <folding />
         </state>
       </provider>

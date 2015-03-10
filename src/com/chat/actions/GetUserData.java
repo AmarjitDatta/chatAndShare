@@ -31,6 +31,10 @@ public class GetUserData extends ActionSupport {
   }
 
   public String execute() throws Exception {
+    latitude = "";
+    longitude = "";
+    ipAddress = "";
+
     String userInformation = DatabaseUtil.getInstance().getUserInformation(getUserName());
     if (StringUtils.isNotBlank(userInformation)) {
       String[] informationArray = userInformation.split(",");

@@ -9,7 +9,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="intro-message">
+          <div class="intro-message-admin">
             <h1>Check a user detail</h1>
 
             <hr class="intro-divider">
@@ -29,13 +29,29 @@
           <c:set var="longitude"><s:property value="longitude"/></c:set>
 
           <c:if test="${not empty userName or not empty ipAddress or not empty latitude or not empty longitude}">
-            User information:<br/>
-            <ui>
-              <li>Username: ${userName}</li>
-              <li>ipAddress: ${ipAddress}</li>
-              <li>latitude: ${latitude}</li>
-              <li>longitude: ${longitude}</li>
-            </ui>
+            <h2>User information</h2>
+            <br/>
+            <div class="row user-info">
+              <div class="col-lg-3">
+                <h3>User name</h3>
+                <h4>${userName}</h4>
+              </div>
+              <div class="col-lg-3">
+                <h3>IP Address</h3>
+                <h4>${ipAddress}</h4>
+              </div>
+              <div class="col-lg-6">
+                <h3>Location</h3>
+                <h4>Latitude: ${latitude}</h4>
+                <h4>Longitude: ${longitude}</h4>
+                <iframe width="300" height="170" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=${latitude},${longitude}&hl=es;z=14&amp;output=embed">
+                </iframe>
+                <br/>
+                <small>
+                  <a href="https://maps.google.com/maps?q='+${latitude}+','+${longitude}+'&hl=es;z=14&amp;output=embed" style="color:#0000FF;text-align:left" target="_blank">See map bigger</a>
+                </small>
+              </div>
+            </div>
           </c:if>
 
           <c:remove var="userName" scope="page"/>

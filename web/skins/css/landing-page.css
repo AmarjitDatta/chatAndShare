@@ -180,3 +180,8 @@ form.userInfo label {
 form.userInfo input {
   color: #000;
 }
+
+.row.user-info {
+  text-align: right;
+}
+
