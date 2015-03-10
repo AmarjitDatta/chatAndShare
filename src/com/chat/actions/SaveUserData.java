@@ -1,35 +1,51 @@
 package com.chat.actions;
 
-public class SaveUserData {
-  private static String latitude;
-  private static String longitude;
-  private static String ipAddress;
+import com.opensymphony.xwork2.ActionSupport;
 
-  public static String getLatitude() {
-    return latitude;
+public class SaveUserData extends ActionSupport {
+  private String latitude;
+  private String longitude;
+  private String ipAddress;
+  private String userName;
+
+  public String getLatitude() {
+    return this.latitude;
   }
 
-  public static void setLatitude(String latitude) {
-    SaveUserData.latitude = latitude;
+  public void setLatitude(String pLatitude) {
+    this.latitude = pLatitude;
   }
 
-  public static String getLongitude() {
-    return longitude;
+  public String getLongitude() {
+    return this.longitude;
   }
 
-  public static void setLongitude(String longitude) {
-    SaveUserData.longitude = longitude;
+  public void setLongitude(String pLongitude) {
+    this.longitude = pLongitude;
   }
 
-  public static String getIpAddress() {
-    return ipAddress;
+  public String getIpAddress() {
+    return this.ipAddress;
   }
 
-  public static void setIpAddress(String ipAddress) {
-    SaveUserData.ipAddress = ipAddress;
+  public void setIpAddress(String pIpAddress) {
+    this.ipAddress = pIpAddress;
+  }
+
+  public String getUserName() {
+    return this.userName;
+  }
+
+  public void setUserName(String pUserName) {
+    this.userName = pUserName;
   }
 
   public String execute() throws Exception {
+    String ip = getIpAddress();
+    String lng = getLongitude();
+    String lat = getLatitude();
+    String name = getUserName();
+
     return "success";
   }
 }
