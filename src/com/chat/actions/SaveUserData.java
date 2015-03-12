@@ -2,6 +2,7 @@ package com.chat.actions;
 
 import com.chat.database.util.DatabaseUtil;
 import com.opensymphony.xwork2.ActionSupport;
+import org.apache.commons.lang.xwork.StringUtils;
 
 public class SaveUserData extends ActionSupport {
   private String latitude;
@@ -42,8 +43,10 @@ public class SaveUserData extends ActionSupport {
   }
 
   public String execute() throws Exception {
-    DatabaseUtil.getInstance().insertUserInformation(getUserName(), getIpAddress(), getLatitude(), getLongitude());
-
+    /*If username is null, it means */
+    if (getUserName() != null && !getUserName().equalsIgnoreCase("admin")) {
+      DatabaseUtil.getInstance().insertUserInformation(getUserName(), getIpAddress(), getLatitude(), getLongitude());
+    }
     return "success";
   }
 }
